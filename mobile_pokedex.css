@@ -1,0 +1,242 @@
+
+@media (max-width: 1200px) {
+
+    #WhiteCont {
+
+        width: 810px;
+    } 
+}
+
+@media (max-width: 900px) {
+
+    #WhiteCont {
+
+        width: 540px;
+    } 
+}
+
+@media (max-width: 630px) {
+
+    #WhiteCont {
+        width: 85%;
+    }
+
+    .pokeCont .cards {
+
+        width: 90%;
+        height: 5%;
+    }
+
+    .pokeCont .cards .contIMG {
+
+        height: 75%;
+    }
+
+    .pokeCont .cards img {
+        height: 90%;
+    }
+
+    .contTYPE.type2 {
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 970px) {
+
+    .disp {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0;
+    }
+
+    .info {
+        justify-content: space-evenly;
+        height: 75%;
+    }
+
+    .info .description {
+        height: 55%;
+    }
+
+    #contDisplay2 .nature {
+        height: 30%;
+    }
+
+    .info .presentation {
+        height: 30%;
+    }
+
+    .underCards .contPokedex {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .underCards .contPokedex .contPokedexAnnidato {
+        width: 65%;
+    }
+
+    .underCards .contPokedex .contPokedexAnnidato #contDisplay1 {
+        width: 100%;
+        height: 1000px;
+        margin: 0;
+        align-items: center;
+    }
+
+    .underCards .contPokedex .contPokedexAnnidato #contDisplay2 {
+        width: 100%;
+        height: 800px;
+        margin: 0;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .underCards .contPokedex .contPokedexAnnidato .contIMG {
+        width: 100%;
+        height: 55%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        padding: 35px;
+        margin-bottom: 15px;
+    }
+
+    .underCards .contPokedex .contPokedexAnnidato .stats .col {
+
+        height: 95%;
+    }
+
+    .evoluzioni {
+        height: 1200px;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 150%, 0% 95%);
+    }
+
+    .disp_ev {
+        flex-direction: column;
+        align-items: center;
+        justify-content: normal;
+        height: 90%;
+    }
+
+    .evol_el {
+        width: 50%;
+    }
+
+    .arrow {
+        width: 100%;
+        align-items: center;
+    }
+
+    .pol {
+        transform: rotate(45deg);
+    }
+}
+
+@media (max-width: 920px) {
+    .disp {
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 550px) and (min-width: 470px) {
+
+    .contPokedex {
+        box-sizing: border-box;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .disp {
+        margin-bottom: 45px;
+    }
+}
+
+@media (max-width: 520px) {
+
+    .types_ev {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .info .presentation p {
+        font-size: 110%;
+    }
+
+    .disp {
+        margin-bottom: 55px;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .underCards .contPokedex .contPokedexAnnidato #contDisplay1 {
+
+        height: 50%;
+    }
+
+    .underCards .contPokedex .contPokedexAnnidato #contDisplay2 {
+
+        height: 60%;
+    }
+
+    .underCards .contPokedex .contPokedexAnnidato .contIMG {
+
+        padding: 15px;
+    }
+
+    .evol_el {
+        width: 55%;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .underCards .contPokedex .contPokedexAnnidato .stats .col .tit {
+        font-size: 80%;
+    }
+
+    .evol_el {
+        width: 60%;
+    }
+    
+}
+
+@media (max-width: 340px) {
+
+    .underCards .contPokedex .contPokedexAnnidato .stats .col .tit {
+        font-size: 70%;
+    }
+
+    .und div {
+        width: 29%;
+    }
+
+    .evol_el {
+        width: 70%;
+    }
+
+    .pokeCont .cards {
+        padding: 10px;
+    }
+
+    .pokeCont .cards .contIMG {
+        height: 70%;
+    }
+}
+
+@media (max-width: 300px) {
+
+    .info .presentation p {
+
+        font-size: 100%;
+    }
+
+    .evol_el {
+        width: 75%;
+    }
+}
